@@ -5,10 +5,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../constant/const.dart';
 import '../../shared/components.dart';
 import '../../shared/cubit/home_cubit/headache_cubit.dart';
-import '../../shared/states/ears_state.dart';
+
 import '../../shared/states/headache.states.dart';
 import '../details_screen/head_details.dart';
-import '../details_screen/skin_details.dart';
 
 class Headachescreen extends StatelessWidget {
   const Headachescreen({Key? key}) : super(key: key);
